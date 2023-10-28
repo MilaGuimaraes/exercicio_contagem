@@ -1,0 +1,36 @@
+.hero {
+    padding-top: 250px;
+    padding-bottom: 250px;
+    background-image: url(../image/pregnant-6189040_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+
+
+    &__text {
+        margin-top: 64px;
+        margin-bottom: 64px;
+        font-size: 40px;
+        line-height: 56px;
+        color: black;
+        font-weight: 800px;
+        text-align: center;
+    }
+
+    @media (max-width: 640px) {
+    max-width: 100%;
+    background-size: auto;
+
+        &__text {
+            font-size: 22px;
+            line-height: 24px;
+            margin: 24px 0;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        max-width: 100%;
+        background-size: cover;       
+    }
+}
